@@ -1,0 +1,89 @@
+﻿.hourBorderBottom {
+    border-bottom: 1px solid #444;
+}
+
+.schedWrap {
+    display:inline-block;
+    float: left;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-left: 20px;
+    max-height: 500px;
+    max-width: 900px;
+    font-size: 90%;
+    text-align: center;
+    background-color: #fff;
+    white-space:nowrap;
+}
+
+.tblTimeColumn, .tblSchedColumn {
+    display:inline-block;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+
+.tblTimeColumn {
+    text-align: left;
+}
+
+.tblSchedColumn {
+    
+
+}
+
+.cellHeader {
+    color: #fff;
+    padding: 7px 10px 7px 10px;
+    background-color: #009966;
+}
+
+.tblSchedColumn .cellHeader {
+    min-width: 15em;
+}
+
+.tblTimeColumn .cellHeader {
+    min-width: 5em;
+}
+
+.tblTimeColumn tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.tblSchedColumn tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.cellUnit {
+    padding-left: 1em;
+    text-align: left;
+    color: #444;
+}
+
+.cellHour {
+    text-align: center;
+    background-color: none;
+    color: #444;
+}
+
+.tblMinute, .tblMinute td{
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.tblMinute tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.rightBar {
+    display: inline-block;
+    style: text-align:center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.calendar {
+    margin: auto;
+}

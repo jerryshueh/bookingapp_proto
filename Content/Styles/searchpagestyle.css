@@ -1,0 +1,27 @@
+﻿.cellHeader .cellPID{
+    min-width: 7em;
+}
+
+.cellHeader .cellSex {
+    min-width: 4em;
+}
+
+.cellHeader .cellFName {
+    min-width: 12em;
+}
+
+.cellHeader .cellLName {
+    min-width: 12em;
+}
+
+.cellHeader .cellDOB {
+    min-width: 8em;
+}
+
+.cellHeader .cellPhone {
+    min-width: 11em;
+}
+
+.cellHeader .cellEmail {
+    min-width: 11em;
+}
